@@ -525,12 +525,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   right: 0px;
 }
 
-.z-10 {
-  z-index: 10;
-}
-
 .z-\[200\] {
   z-index: 200;
+}
+
+.z-10 {
+  z-index: 10;
 }
 
 .mx-auto {
@@ -553,8 +553,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-right: 1.75rem;
 }
 
-.mt-10 {
-  margin-top: 2.5rem;
+.mt-4 {
+  margin-top: 1rem;
 }
 
 .ml-2 {
@@ -591,14 +591,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .-mt-14 {
   margin-top: -3.5rem;
-}
-
-.mt-4 {
-  margin-top: 1rem;
-}
-
-.mt-8 {
-  margin-top: 2rem;
 }
 
 .block {
@@ -702,6 +694,12 @@ Ensure the default browser behavior of the `hidden` attribute.
        column-gap: 0.75rem;
 }
 
+.space-x-6 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(1.5rem * var(--tw-space-x-reverse));
+  margin-left: calc(1.5rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
 .space-y-6 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0;
   margin-top: calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));
@@ -730,12 +728,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-space-y-reverse: 0;
   margin-top: calc(3rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(3rem * var(--tw-space-y-reverse));
-}
-
-.space-x-6 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-x-reverse: 0;
-  margin-right: calc(1.5rem * var(--tw-space-x-reverse));
-  margin-left: calc(1.5rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
 .self-end {
@@ -814,11 +806,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .bg-veryDarkBlue {
   --tw-bg-opacity: 1;
   background-color: rgb(4 56 100 / var(--tw-bg-opacity));
-}
-
-.bg-rose-600 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(225 29 72 / var(--tw-bg-opacity));
 }
 
 .bg-center {
