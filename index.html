@@ -5,330 +5,301 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" href="css/main.css" />
+		<link rel="stylesheet" href="css/styles.css" />
 		<!--========== BOX ICONS ==========-->
 		<link
 			href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css"
 			rel="stylesheet"
 		/>
+		<!-- ============== Font awesome ============= -->
+		<link
+			rel="stylesheet"
+			href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+			integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
+			crossorigin="anonymous"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+		/>
+
 		<title>Victoria Visa Consultants</title>
 	</head>
 	<body>
 		<!-- Navbar -->
-		<nav class="relative container mx-auto">
-			<!-- Flex container -->
-			<div class="flex items-center justify-around md:justify-between">
-				<!-- Logo -->
-				<div>
-					<img
-						src="https://res.cloudinary.com/dgisuffs0/image/upload/q_auto/c_scale,w_178,h_112/v1649662867/logo_ron3lu.png"
-						alt=""
-					/>
-				</div>
-				<!-- Menu Items -->
-				<div class="hidden space-x-6 md:flex">
-					<a href="#" class="hover:text-darkGrayishBlue">Home</a>
-					<a href="#" class="hover:text-darkGrayishBlue">Services</a>
-					<a href="#" class="hover:text-darkGrayishBlue">Blog</a>
-					<a href="#" class="hover:text-darkGrayishBlue">About</a>
-					<a href="#" class="hover:text-darkGrayishBlue">Contact</a>
-				</div>
-				<!-- Button -->
-				<a
-					href="#"
-					class="hidden p-3 px-6 pt-2 text-white bg-green-500 rounded-full baseline hover:bg-green-400 md:block"
-					>Get Started</a
-				>
-
-				<!-- Hamburger Icon -->
-				<button
-					id="menu-btn"
-					class="block hamburger md:hidden focus:outline-none"
-				>
-					<span class="hamburger-top"></span>
-					<span class="hamburger-middle"></span>
-					<span class="hamburger-bottom"></span>
-				</button>
-			</div>
-
-			<!-- Mobile Menu -->
-			<div class="md:hidden">
-				<div
-					id="menu"
-					class="absolute flex-col items-center hidden self-end py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md"
-				>
-					<a href="#">Home</a>
-					<a href="#">Services</a>
-					<a href="#">Blog</a>
-					<a href="#">About</a>
-					<a href="#">Contact</a>
-				</div>
-			</div>
-		</nav>
-
 		<!-- Hero Section -->
-		<section id="hero">
-			<!-- Flex Container -->
-			<div
-				class="container flex flex-col-reverse items-center px-6 mx-auto mt-10 space-y-0 md:space-y-0 md:flex-row"
-			>
-				<!-- Left item -->
-				<div class="flex flex-col mb-32 space-y-12 md:w-1/2">
-					<h1
-						class="max-w-md text-4xl font-bold text-center md:text-5xl md:text-left"
-					>
-						Visa & Immigration Consultation
-					</h1>
-					<p class="max-w-sm text-center text-darkGrayishBlue md:text-left">
-						<!-- Manage makes it simple for software teams to plan day-to-day tasks
-						while keeping the larger team goals in view. -->
-						We are a trustworthy and resourceful immigration consultants that
-						will give you the best possible to live your dream.
-					</p>
-					<div class="flex justify-center md:justify-start">
-						<a
-							href="#"
-							class="p-3 px-6 pt-2 text-white bg-green-500 rounded-full baseline hover:bg-green-400"
-							>Get Started</a
-						>
-					</div>
-				</div>
-				<!-- Image -->
-				<div class="md:w-1/2 bg-transparent">
-					<img src="img/home.png" alt="" />
-				</div>
-			</div>
-		</section>
-
-		<!-- Features Section -->
-		<section id="features">
-			<!-- Flex container -->
-			<div
-				class="container flex flex-col px-4 mx-auto mt-10 space-y-12 md:space-y-0 md:flex-row"
-			>
-				<!-- What's Different -->
-				<div class="flex flex-col space-y-12 md:w-1/2">
-					<h2 class="max-w-md text-4xl font-bold text-center md:text-left">
-						Our Specialty
-					</h2>
-					<p class="max-w-sm text-center text-darkGrayishBlue md:text-left">
-						So many options available to you, all claiming to make application
-						process easy, let's take a look at why you should use Victora Visa
-						Consultant and what makes us different.
-					</p>
-				</div>
-
-				<!-- Numbered List -->
-				<div class="flex flex-col space-y-8 md:w-1/2">
-					<!-- List Item 1 -->
-					<div
-						class="flex flex-col space-y-3 md:space-y-0 md:space-x-6 md:flex-row"
-					>
-						<!-- Heading -->
-						<div class="rounded-l-full bg-green-100 md:bg-transparent">
-							<div class="flex items-center space-x-2">
-								<div
-									class="px-4 py-2 text-white rounded-full md:py-1 bg-green-500"
-								>
-									01
-								</div>
-								<h3 class="text-base font-bold md:mb-4 md:hidden">
-									Transit Visa
-								</h3>
-							</div>
-						</div>
-
-						<div>
-							<h3 class="hidden mb-4 text-lg font-bold md:block">
-								Transit Visa
-							</h3>
-							<p class="text-darkGrayishBlue">
-								A Transit visa is a temporary nonimmigrant short term visa to
-								allow the travellers to tour the intermediate airport cities
-								en­route where they have to change the flight for their onward
-								journey.
-							</p>
-						</div>
-					</div>
-
-					<!-- List Item 2 -->
-					<div
-						class="flex flex-col space-y-3 md:space-y-0 md:space-x-6 md:flex-row"
-					>
-						<!-- Heading -->
-						<div class="rounded-l-full bg-green-100 md:bg-transparent">
-							<div class="flex items-center space-x-2">
-								<div
-									class="px-4 py-2 text-white rounded-full md:py-1 bg-green-500"
-								>
-									02
-								</div>
-								<h3 class="text-base font-bold md:mb-4 md:hidden">
-									Family Visa
-								</h3>
-							</div>
-						</div>
-
-						<div>
-							<h3 class="hidden mb-4 text-lg font-bold md:block">
-								Family Visa
-							</h3>
-							<p class="text-darkGrayishBlue">
-								These are travel visas to go to relatives who have permission to
-								measure and stay within the said country to the precise country
-								for a period of up to six months or more depending on the
-								applicant's travel needs.
-							</p>
-						</div>
-					</div>
-
-					<!-- List Item 3 -->
-					<div
-						class="flex flex-col space-y-3 md:space-y-0 md:space-x-6 md:flex-row"
-					>
-						<!-- Heading -->
-						<div class="rounded-l-full bg-green-100 md:bg-transparent">
-							<div class="flex items-center space-x-2">
-								<div
-									class="px-4 py-2 text-white rounded-full md:py-1 bg-green-500"
-								>
-									03
-								</div>
-								<h3 class="text-base font-bold md:mb-4 md:hidden">
-									General Visa
-								</h3>
-							</div>
-						</div>
-
-						<div>
-							<h3 class="hidden mb-4 text-lg font-bold md:block">
-								General Visa
-							</h3>
-							<p class="text-darkGrayishBlue">
-								These are travel visas to go to relatives who have permission to
-								measure and stay within the said country to the precise country
-								for a period of up to six months or more depending on the
-								applicant's travel needs.
-							</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-
-		<!-- Features Section -->
-		<section id="features">
-			<!-- Flex container -->
-			<div
-				class="container flex flex-col flex-end px-4 mx-auto mt-10 space-y-12 md:space-y-0 md:flex-row-reverse"
-			>
-				<!-- What's Different -->
+		<div class="carousel relative rounded overflow-hidden shadow-sm">
+			<div class="carousel-inner relative overflow-hidden w-full">
+				<!--Slide 1-->
+				<input
+					class="carousel-open"
+					type="radio"
+					id="carousel-1"
+					name="carousel"
+					aria-hidden="true"
+					hidden=""
+					checked="checked"
+				/>
 				<div
-					class="flex flex-col justify-center items-center space-y-12 md:w-1/2"
-				>
-					<h2 class="text-4xl font-bold text-center md:text-center">
-						Our Specialty
-					</h2>
-					<p class="max-w-sm text-center text-darkGrayishBlue md:text-center">
-						So many options available to you, all claiming to make application
-						process easy, let's take a look at why you should use Victora Visa
-						Consultant and what makes us different.
-					</p>
+					class="carousel-item absolute opacity-0 bg-center"
+					style="
+						height: 500px;
+						background-image: url(https://mdbootstrap.com/img/new/slides/052.jpg);
+					"
+				></div>
+				<label
+					for="carousel-3"
+					class="control-1 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-lightBlue leading-tight text-center z-10 inset-y-0 left-0 my-auto"
+					><i class="fas fa-angle-left mt-3"></i
+				></label>
+				<label
+					for="carousel-2"
+					class="next control-1 w-10 h-10 mr-2 md:mr-10 absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-lightBlue leading-tight text-center z-10 inset-y-0 right-0 my-auto"
+					><i class="fas fa-angle-right mt-3"></i
+				></label>
+
+				<!--Slide 2-->
+				<input
+					class="carousel-open"
+					type="radio"
+					id="carousel-2"
+					name="carousel"
+					aria-hidden="true"
+					hidden=""
+				/>
+				<div
+					class="carousel-item absolute opacity-0 bg-center"
+					style="
+						height: 500px;
+						background-image: url(https://mdbootstrap.com/img/new/slides/043.jpg);
+					"
+				></div>
+				<label
+					for="carousel-1"
+					class="control-2 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 left-0 my-auto"
+					><i class="fas fa-angle-left mt-3"></i
+				></label>
+				<label
+					for="carousel-3"
+					class="next control-2 w-10 h-10 mr-2 md:mr-10 absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-lightBlue leading-tight text-center z-10 inset-y-0 right-0 my-auto"
+					><i class="fas fa-angle-right mt-3"></i
+				></label>
+
+				<!--Slide 3-->
+				<input
+					class="carousel-open"
+					type="radio"
+					id="carousel-3"
+					name="carousel"
+					aria-hidden="true"
+					hidden=""
+				/>
+				<div
+					class="carousel-item absolute opacity-0"
+					style="
+						height: 500px;
+						background-image: url(https://mdbootstrap.com/img/new/slides/054.jpg);
+					"
+				></div>
+				<label
+					for="carousel-2"
+					class="control-3 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 left-0 my-auto"
+					><i class="fas fa-angle-left mt-3"></i
+				></label>
+				<label
+					for="carousel-1"
+					class="next control-3 w-10 h-10 mr-2 md:mr-10 absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 right-0 my-auto"
+					><i class="fas fa-angle-right mt-3"></i
+				></label>
+
+				<!-- Add additional indicators for each slide-->
+				<ol class="carousel-indicators">
+					<li class="inline-block mr-3">
+						<label
+							for="carousel-1"
+							class="carousel-bullet cursor-pointer block text-4xl text-white hover:text-blue-700"
+							>•</label
+						>
+					</li>
+					<li class="inline-block mr-3">
+						<label
+							for="carousel-2"
+							class="carousel-bullet cursor-pointer block text-4xl text-white hover:text-blue-700"
+							>•</label
+						>
+					</li>
+					<li class="inline-block mr-3">
+						<label
+							for="carousel-3"
+							class="carousel-bullet cursor-pointer block text-4xl text-white hover:text-blue-700"
+							>•</label
+						>
+					</li>
+				</ol>
+			</div>
+		</div>
+
+		<section class="bg-veryLightGray py-14">
+			<div>
+				<h2 class="text-center text-2xl">Why Choose Victoria Visa</h2>
+				<p class="text-center text-gray-500">
+					Integer eleifend sapisimple dummy en sed molestie hendrerit.
+				</p>
+			</div>
+			<div
+				class="container mx-auto px-7 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-y-6 gap-x-3 pt-16"
+			>
+				<div>
+					<h1 class="text-rose-500 text-2xl">01</h1>
+					<div class="py-4">
+						<h2 class="text-xl font-light">Trust</h2>
+						<p class="text-gray-500 pt-4">
+							Fusce sed erat libasellus id orci quis ligula pretium congue idet
+							imodo lectus velit.
+						</p>
+					</div>
 				</div>
-
-				<!-- Numbered List -->
-				<div class="flex flex-col space-y-8 md:w-1/2">
-					<!-- List Item 1 -->
-					<div
-						class="flex flex-col space-y-3 md:space-y-0 md:space-x-6 md:flex-row"
-					>
-						<!-- Heading -->
-						<div class="rounded-l-full bg-green-100 md:bg-transparent">
-							<div class="flex items-center space-x-2">
-								<div
-									class="px-4 py-2 text-white rounded-full md:py-1 bg-green-500"
-								>
-									04
-								</div>
-								<h3 class="text-base font-bold md:mb-4 md:hidden">
-									Business Visa
-								</h3>
-							</div>
-						</div>
-
-						<div>
-							<h3 class="hidden mb-4 text-lg font-bold md:block">
-								Business Visa
-							</h3>
-							<p class="text-darkGrayishBlue">
-								A Transit visa is a temporary nonimmigrant short term visa to
-								allow the travellers to tour the intermediate airport cities
-								en­route where they have to change the flight for their onward
-								journey.
-							</p>
-						</div>
+				<div>
+					<h1 class="text-rose-500 text-2xl">02</h1>
+					<div class="py-4">
+						<h2 class="text-xl font-light">Experience</h2>
+						<p class="text-gray-500 pt-4">
+							Fusce sed erat libasellus id orci quis ligula pretium congue idet
+							imodo lectus velit.
+						</p>
 					</div>
-
-					<!-- List Item 2 -->
-					<div
-						class="flex flex-col space-y-3 md:space-y-0 md:space-x-6 md:flex-row"
-					>
-						<!-- Heading -->
-						<div class="rounded-l-full bg-green-100 md:bg-transparent">
-							<div class="flex items-center space-x-2">
-								<div
-									class="px-4 py-2 text-white rounded-full md:py-1 bg-green-500"
-								>
-									05
-								</div>
-								<h3 class="text-base font-bold md:mb-4 md:hidden">
-									Student Visa
-								</h3>
-							</div>
-						</div>
-
-						<div>
-							<h3 class="hidden mb-4 text-lg font-bold md:block">
-								Student Visa
-							</h3>
-							<p class="text-darkGrayishBlue">
-								These are travel visas to go to relatives who have permission to
-								measure and stay within the said country to the precise country
-								for a period of up to six months or more depending on the
-								applicant's travel needs.
-							</p>
-						</div>
+				</div>
+				<div>
+					<h1 class="text-rose-500 text-2xl">03</h1>
+					<div class="py-4">
+						<h2 class="text-xl font-light">Evaluation</h2>
+						<p class="text-gray-500 pt-4">
+							Fusce sed erat libasellus id orci quis ligula pretium congue idet
+							imodo lectus velit.
+						</p>
 					</div>
-
-					<!-- List Item 3 -->
-					<div
-						class="flex flex-col space-y-3 md:space-y-0 md:space-x-6 md:flex-row"
-					>
-						<!-- Heading -->
-						<div class="rounded-l-full bg-green-100 md:bg-transparent">
-							<div class="flex items-center space-x-2">
-								<div
-									class="px-4 py-2 text-white rounded-full md:py-1 bg-green-500"
-								>
-									06
-								</div>
-								<h3 class="text-base font-bold md:mb-4 md:hidden">
-									Business Visa
-								</h3>
-							</div>
-						</div>
-
-						<div>
-							<h3 class="hidden mb-4 text-lg font-bold md:block">
-								Business Visa
-							</h3>
-							<p class="text-darkGrayishBlue">
-								These are travel visas to go to relatives who have permission to
-								measure and stay within the said country to the precise country
-								for a period of up to six months or more depending on the
-								applicant's travel needs.
-							</p>
-						</div>
+				</div>
+				<div>
+					<h1 class="text-rose-500 text-2xl">04</h1>
+					<div class="py-4">
+						<h2 class="text-xl font-light">Affordable</h2>
+						<p class="text-gray-500 pt-4">
+							Fusce sed erat libasellus id orci quis ligula pretium congue idet
+							imodo lectus velit.
+						</p>
 					</div>
+				</div>
+				<div>
+					<h1 class="text-rose-500 text-2xl">05</h1>
+					<div class="py-4">
+						<h2 class="text-xl font-light">Credibility</h2>
+						<p class="text-gray-500 pt-4">
+							Fusce sed erat libasellus id orci quis ligula pretium congue idet
+							imodo lectus velit.
+						</p>
+					</div>
+				</div>
+				<div>
+					<h1 class="text-rose-500 text-2xl">06</h1>
+					<div class="py-4">
+						<h2 class="text-xl font-light">Quality Service</h2>
+						<p class="text-gray-500 pt-4">
+							Fusce sed erat libasellus id orci quis ligula pretium congue idet
+							imodo lectus velit.
+						</p>
+					</div>
+				</div>
+				<div>
+					<h1 class="text-rose-500 text-2xl">07</h1>
+					<div class="py-4">
+						<h2 class="text-xl font-light">Support</h2>
+						<p class="text-gray-500 pt-4">
+							Fusce sed erat libasellus id orci quis ligula pretium congue idet
+							imodo lectus velit.
+						</p>
+					</div>
+				</div>
+				<div>
+					<h1 class="text-rose-500 text-2xl">08</h1>
+					<div class="py-4">
+						<h2 class="text-xl font-light">Accreditation</h2>
+						<p class="text-gray-500 pt-4">
+							Fusce sed erat libasellus id orci quis ligula pretium congue idet
+							imodo lectus velit.
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="py-14">
+			<div class="container mx-auto">
+				<h2 class="text-center text-2xl">
+					Victoria Visa Most Reliable Visa Consultants
+				</h2>
+				<p class="text-center pt-4 text-base">
+					Curabitur consectetur justo in odio ultrices vitae aliquet libero
+					pretium simple ras quis tincidunt ipsumlis elit euodio uspendisse
+					lobortis pretium simplmmy content visapress elit sed sagittis.
+				</p>
+			</div>
+			<div
+				class="container mx-auto px-7 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-y-6 gap-x-3 pt-16"
+			>
+				<div class="flex flex-col items-center">
+					<div>
+						<img
+							src="https://res.cloudinary.com/dgisuffs0/image/upload/q_auto/c_scale,w_80,h_80/v1650938088/Victoriavisaconsultants/canada-round-flag-vector-flat-icon-vector-id967988240_opcifg.jpg"
+							alt="Canada"
+						/>
+					</div>
+					<h4 class="text-base pt-4">Canada</h4>
+				</div>
+				<div class="flex flex-col items-center">
+					<div>
+						<img
+							class="aspect-square"
+							src="https://res.cloudinary.com/dgisuffs0/image/upload/q_auto/c_scale,w_80,h_80/v1650938118/Victoriavisaconsultants/australia-flag-icon-vector-illustration-round-vector-id1313884133_fdcyup.jpg"
+							alt="Australia"
+						/>
+					</div>
+					<h4 class="text-base pt-4">Australia</h4>
+				</div>
+				<div class="flex flex-col items-center">
+					<div>
+						<img
+							src="https://res.cloudinary.com/dgisuffs0/image/upload/q_auto/c_scale,w_80,h_80/v1650939756/Victoriavisaconsultants/british-flag-button-flag-of-the-uk-badge-picture-id542201926_mviqyd.jpg"
+							alt="United Kingdom"
+						/>
+					</div>
+					<h4 class="text-base pt-4">United Kingdom</h4>
+				</div>
+				<div class="flex flex-col items-center">
+					<div>
+						<img
+							src="https://res.cloudinary.com/dgisuffs0/image/upload/q_auto/c_scale,w_80,h_80/v1650938206/Victoriavisaconsultants/flag-round-icon-picture-id697849754_dqw9es.jpg"
+							alt="USA"
+						/>
+					</div>
+					<h4 class="text-base pt-4">USA</h4>
+				</div>
+				<div class="flex flex-col items-center">
+					<div>
+						<img
+							src="https://res.cloudinary.com/dgisuffs0/image/upload/q_auto/c_scale,w_80,h_80/v1650938268/Victoriavisaconsultants/new_zealand-512_hpgq9r.png"
+							alt="New Zealand"
+						/>
+					</div>
+					<h4 class="text-base pt-4">New Zealand</h4>
+				</div>
+				<div class="flex flex-col items-center">
+					<div>
+						<img
+							src="https://res.cloudinary.com/dgisuffs0/image/upload/q_auto/c_scale,w_80,h_80/v1650938297/Victoriavisaconsultants/flag-round-250_f4wwbb.png"
+							alt="Germany"
+						/>
+					</div>
+					<h4 class="text-base pt-4">Germany</h4>
 				</div>
 			</div>
 		</section>
@@ -337,7 +308,7 @@
 			<div class="flex flex-col justify-center space-x-4 container mx-auto">
 				<div class="flex flex-col justify-center items-center pb-8">
 					<h2 class="text-2xl text-center md:text-center px-3 md:px-0">
-						Why Victoria Visa Consultants Immigration?
+						Victoria Visa Impact
 					</h2>
 					<h4 class="text-center py-4 px-12">
 						Since our founding, our primary goal has been to provide visa
@@ -504,7 +475,9 @@
 								Exam Preparation Information
 							</p>
 						</div>
-						<div class="py-6">
+						<div
+							class="py-6 flex flex-col sm:flex-row space-y-2 sm:space-y-0 space-x-0 sm:space-x-2 mx-7"
+						>
 							<a
 								href="#"
 								class="px-6 py-4 text-white bg-red hover:bg-brightRed hover:text-white uppercase"
@@ -692,7 +665,7 @@
 		<section class="bg-black">
 			<!-- Flex Container -->
 			<div
-				class="container flex flex-col items-center justify-between px-6 py-24 mx-auto space-y-12 md:py-12 md:flex-row md:space-y-0"
+				class="container flex flex-col items-center md:justify-between px-6 py-24 mx-auto space-y-12 md:py-12 sm:flex-row md:space-y-0"
 			>
 				<!-- Heading -->
 				<div>
@@ -907,6 +880,12 @@
 			</p>
 		</div>
 
+		<script
+			src="https://code.jquery.com/jquery-3.6.0.min.js"
+			integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+			crossorigin="anonymous"
+		></script>
+		<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
 		<script src="js/script.js"></script>
 	</body>
 </html>
