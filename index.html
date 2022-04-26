@@ -27,8 +27,61 @@
 	</head>
 	<body>
 		<!-- Navbar -->
+		<nav class="relative container mx-auto p-6">
+			<!-- Flex container -->
+			<div class="flex items-center justify-around md:justify-between">
+				<!-- Logo -->
+				<div class="">
+					<img
+						src="https://res.cloudinary.com/dgisuffs0/image/upload/q_auto/c_scale,w_160,h_52/v1650969776/Victoriavisaconsultants/victorialogo_jab5am.jpg"
+						alt=""
+					/>
+				</div>
+				<!-- Menu Items -->
+				<div class="hidden space-x-6 md:flex">
+					<a href="#" class="hover:text-darkGrayishBlue">Home</a>
+					<a href="#" class="hover:text-darkGrayishBlue">Study</a>
+					<a href="#" class="hover:text-darkGrayishBlue">Visa</a>
+					<a href="#" class="hover:text-darkGrayishBlue">Blog</a>
+					<a href="#" class="hover:text-darkGrayishBlue">About</a>
+					<a href="#" class="hover:text-darkGrayishBlue">Contact</a>
+				</div>
+				<!-- Button -->
+				<a
+					href="#"
+					class="hidden p-3 px-6 pt-2 text-white bg-brightRed rounded-full baseline hover:bg-brightRedLight md:block"
+					>Get Started</a
+				>
+
+				<!-- Hamburger Icon -->
+				<button
+					id="menu-btn"
+					class="block hamburger md:hidden focus:outline-none"
+				>
+					<span class="hamburger-top"></span>
+					<span class="hamburger-middle"></span>
+					<span class="hamburger-bottom"></span>
+				</button>
+			</div>
+
+			<!-- Mobile Menu -->
+			<div class="md:hidden">
+				<div
+					id="menu"
+					class="z-[200] absolute rounded flex-col items-center hidden self-end py-8 mt-4 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md"
+				>
+					<a href="#">Home</a>
+					<a href="#">Study</a>
+					<a href="#">Visa</a>
+					<a href="#">Blog</a>
+					<a href="#">About</a>
+					<a href="#">Contact</a>
+				</div>
+			</div>
+		</nav>
+
 		<!-- Hero Section -->
-		<div class="carousel relative rounded overflow-hidden shadow-sm">
+		<div class="carousel relative overflow-hidden">
 			<div class="carousel-inner relative overflow-hidden w-full">
 				<!--Slide 1-->
 				<input
@@ -890,13 +943,13 @@
 			</p>
 		</div>
 
-		<script src="//code.jivosite.com/widget/xXjn3oQQYe" async></script>
-		<script
+		<!-- <script src="//code.jivosite.com/widget/xXjn3oQQYe" async></script> -->
+		<!-- <script
 			src="https://code.jquery.com/jquery-3.6.0.min.js"
 			integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
 			crossorigin="anonymous"
 		></script>
-		<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+		<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script> -->
 		<script src="js/script.js"></script>
 	</body>
 </html>
