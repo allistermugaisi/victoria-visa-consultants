@@ -638,12 +638,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 3rem;
 }
 
-.h-32 {
-  height: 8rem;
-}
-
 .h-10 {
   height: 2.5rem;
+}
+
+.h-32 {
+  height: 8rem;
 }
 
 .w-32 {
@@ -780,12 +780,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   border-radius: 0.25rem;
 }
 
-.rounded-lg {
-  border-radius: 0.5rem;
-}
-
 .rounded-sm {
   border-radius: 0.125rem;
+}
+
+.rounded-lg {
+  border-radius: 0.5rem;
 }
 
 .border {
@@ -830,6 +830,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgb(241 42 5 / var(--tw-bg-opacity));
 }
 
+.bg-lightGray {
+  --tw-bg-opacity: 1;
+  background-color: rgb(247 247 247 / var(--tw-bg-opacity));
+}
+
 .bg-veryLightGray {
   --tw-bg-opacity: 1;
   background-color: rgb(248 249 250 / var(--tw-bg-opacity));
@@ -838,11 +843,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .bg-gray-300 {
   --tw-bg-opacity: 1;
   background-color: rgb(209 213 219 / var(--tw-bg-opacity));
-}
-
-.bg-lightGray {
-  --tw-bg-opacity: 1;
-  background-color: rgb(247 247 247 / var(--tw-bg-opacity));
 }
 
 .bg-lightBlue {
@@ -971,6 +971,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-bottom: 0.75rem;
 }
 
+.pl-\[14px\] {
+  padding-left: 14px;
+}
+
 .pt-16 {
   padding-top: 4rem;
 }
@@ -981,10 +985,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .pb-8 {
   padding-bottom: 2rem;
-}
-
-.pl-\[14px\] {
-  padding-left: 14px;
 }
 
 .pt-\[16px\] {
@@ -1036,6 +1036,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-lg {
   font-size: 1.125rem;
   line-height: 1.75rem;
+}
+
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
 }
 
 .font-bold {
@@ -1114,6 +1119,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-rose-500 {
   --tw-text-opacity: 1;
   color: rgb(244 63 94 / var(--tw-text-opacity));
+}
+
+.text-darkBlue {
+  --tw-text-opacity: 1;
+  color: rgb(8 68 119 / var(--tw-text-opacity));
 }
 
 .underline {
@@ -1275,6 +1285,11 @@ body {
 .hover\:text-blue-700:hover {
   --tw-text-opacity: 1;
   color: rgb(29 78 216 / var(--tw-text-opacity));
+}
+
+.hover\:text-darkBlue:hover {
+  --tw-text-opacity: 1;
+  color: rgb(8 68 119 / var(--tw-text-opacity));
 }
 
 .hover\:opacity-100:hover {
