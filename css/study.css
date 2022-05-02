@@ -1,0 +1,162 @@
+/*===== VARIABLES CSS =====*/
+:root {
+	--colorPrimaryDark: #0b132b;
+	--colorPrimaryLight: #494f61;
+	--colorPlaceholder: #9b9fa8;
+	--colorBackground: #eeeff0;
+	--colorBorder: #cdcfd3;
+	--colorAccent: #084477;
+	--gutter: 0 16px;
+	--border: 1.5px solid var(--colorBorder);
+	--radius: 3px;
+
+	--biggest-font-size: 3rem;
+	--h1-font-size: 2.25rem;
+	--h2-font-size: 1.5rem;
+	--h3-font-size: 1.25rem;
+	--h4-font-size: 1.15rem;
+	--normal-font-size: 1rem;
+	--small-font-size: 0.875rem;
+	--smaller-font-size: 0.813rem;
+	--padding-about: 2rem;
+	--margin-about: 6.5rem;
+	--padding-about-1: 4.5rem;
+	--min-height: 70vh;
+}
+
+.left-download {
+	margin-top: 1rem;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+.left-download > p {
+	color: #3e3e3e;
+	font-size: 1.15rem;
+	font-weight: 600;
+}
+.left-download > img {
+	width: 28px;
+	height: 30%;
+}
+.left-details p {
+	color: #3e3e3e;
+	padding: 0.5rem 0;
+	margin-bottom: 0.5rem;
+	font-weight: 600;
+}
+.left-greetings {
+	background: #084477;
+	margin: 1rem 0;
+	padding: 1.5rem 0;
+}
+.left-greetings > h2 {
+	color: #fff;
+	padding: 0 2rem;
+}
+
+.description-1 > h3 {
+	color: #084477;
+	margin-bottom: 1rem;
+	font-size: var(--h3-font-size);
+}
+
+.showcase-actions {
+	margin-top: 1rem;
+	padding: 0 2rem;
+}
+.showcase-actions .button {
+	background-color: #f25f3a;
+	border: 2px solid #f25f3a;
+	color: #fff;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	font-weight: 600;
+	border-radius: 30px;
+	cursor: pointer;
+	transition: 0.2s ease;
+}
+
+/* Input styling */
+
+.input {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	border: var(--border);
+	border-radius: var(--radius);
+	height: 46px;
+	width: 100%;
+	padding: var(--gutter);
+	background-color: white;
+}
+
+.input__active {
+	border-color: var(--colorAccent);
+	border-bottom-left-radius: 0px !important;
+	border-bottom-right-radius: 0px !important;
+}
+
+.input__placeholder {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.input:hover {
+	cursor: pointer;
+}
+
+.placeholder {
+	color: var(--colorPlaceholder);
+}
+
+.input__selected {
+	color: var(--colorPrimaryDark);
+}
+
+/* Dropdown styling */
+
+.structure {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	height: 300px;
+	width: 100%;
+	overflow: scroll;
+	background-color: white;
+	box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
+	padding: 10px 0;
+}
+
+.structure > div {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 16px;
+}
+
+.structure > div:hover {
+	background-color: var(--colorAccent);
+	color: white;
+	cursor: pointer;
+}
+
+.structure > div > h5 {
+	font-weight: 600;
+	margin-right: 4px;
+}
+
+.structure > div > p {
+	font-weight: 400;
+	font-size: 13px;
+	color: var(--colorPlaceholder);
+}
+
+.hide {
+	display: none;
+}

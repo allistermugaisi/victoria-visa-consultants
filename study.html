@@ -6,6 +6,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" href="css/main.css" />
 		<link rel="stylesheet" href="css/styles.css" />
+		<link rel="stylesheet" href="css/study.css" />
 		<!--========== BOX ICONS ==========-->
 		<link
 			href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css"
@@ -23,7 +24,7 @@
 	</head>
 	<body>
 		<!-- Navbar -->
-		<nav class="relative container mx-auto p-6">
+		<nav class="relative container mx-auto py-6">
 			<!-- Flex container -->
 			<div class="flex items-center justify-around md:justify-between">
 				<!-- Logo -->
@@ -75,6 +76,39 @@
 				</div>
 			</div>
 		</nav>
+
+		<section class="container mx-auto py-14">
+			<div class="grid grid-cols-1 px-7 sm:px-0 sm:grid-cols-3 gap-8">
+				<div class="left-details">
+					<!-- Select country -->
+					<p>Select a country below you wish to study</p>
+					<div id="content"></div>
+
+					<div class="left-download">
+						<img src="./img/pdf.svg" alt="pdf" />
+						&nbsp; &nbsp; &nbsp;
+						<p>
+							<a href="#" download>Download Brochure</a>
+						</p>
+					</div>
+					<div class="left-greetings">
+						<h2>Get your Visa Today. Are You Ready?</h2>
+						<div class="showcase-actions">
+							<button class="button">Get Started</button>
+						</div>
+					</div>
+				</div>
+				<div class="col-span-2">
+					<div class="description-1">
+						<h3>
+							Study in
+							<span id="country"></span>
+						</h3>
+						<p id="content-info"></p>
+					</div>
+				</div>
+			</div>
+		</section>
 
 		<footer class="bg-darkBlue py-14">
 			<div
@@ -369,5 +403,6 @@
 			crossorigin="anonymous"
 		></script>
 		<script src="js/script.js"></script>
+		<script src="js/dropdown.js"></script>
 	</body>
 </html>
