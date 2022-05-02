@@ -46,51 +46,52 @@ const countries = [
 	{
 		id: 5,
 		name: 'Belgium',
-		content: `Ghana company registry documents- Registry extracts, annual returns certificate of incorporation.<br/><br/>
-		Ghana Business information reports- company name & registration Number, legal status, Registered address, shareholdings & directorships.<br/><br/>
-		Ghana Credit reports, Ghana Due diligence services, Ghana Litigation search/checks, Ghana Property search/checks, Ghana court records search, Ghana Adverse media search, Ghana compliance checks, Ghana Directorships Checks/search, Ghana Shareholdings Checks/search., Ghana Business and market intelligence, Ghana Risk intelligence data, Ghana Third-party enhanced due diligence, Ghana Investigative services.`,
+		content: `Belgium has become a sought after destination for international students wishing to pursue their masters, bachelors or doctorate degrees.<br/><br/>
+		Victoria Visa Consultants has expert agents who are there to guide you in terms of student counseling, institute selection and other procedures so give us a visit and we will surely be able to assist you with your visa matters.<br/><br/>
+		The Belgium education system is based upon teaching, research and service to the community and is divided among different regions of the country.<br/><br/>
+		In addition, you can find university colleges and art colleges which offer long and short-term programs or vocational professional training. Education in Belgium is administered by each region separately and each region determines their own rules regarding admissions, tuition fees and language of instruction.`,
 	},
 	{
 		id: 6,
 		name: 'Denmark',
-		content: `Nigeria company registry documents- Registry extracts, annual returns certificate of incorporation.<br/><br/>
-		Nigeria Business information reports- company name & registration Number, legal status, Registered address, shareholdings & directorships.<br/><br/>
-		Nigeria Credit reports, Nigeria Due diligence services, Nigeria Litigation search/checks, Nigeria Property search/checks, Nigeria court records search, Nigeria Adverse media search, Nigeria compliance checks, Nigeria Directorships Checks/search, Nigeria Shareholdings Checks/search., Nigeria Business and market intelligence, Nigeria Risk intelligence data, Nigeria Third-party enhanced due diligence, Nigeria Investigative services.`,
+		content: `Denmark has become a sought after destination for international students wishing to pursue their masters, bachelors or doctorate degrees.<br/><br/>
+		Victoria Visa Consultants has expert agents who are there to guide you in terms of student counseling, institute selection and other procedures so give us a visit and we will surely be able to assist you with your visa matters.<br/><br/>
+		Danish universities promote personal initiative and problem-based learning, combining traditional lectures with industrial placements that allows for the practical application of studies.`,
 	},
 	{
 		id: 7,
 		name: 'Czech Republic',
-		content: `Botswana company registry documents- Registry extracts, annual returns certificate of incorporation.<br/><br/>
-		Botswana Business information reports- company name & registration Number, legal status, Registered address, shareholdings & directorships.<br/><br/>
-		Botswana Credit reports, Botswana Due diligence services, Botswana Litigation search/checks, Botswana Property search/checks, Botswana court records search, Botswana Adverse media search, Botswana compliance checks, Botswana Directorships Checks/search, Botswana Shareholdings Checks/search., Botswana Business and market intelligence, Botswana Risk intelligence data, Botswana Third-party enhanced due diligence, Botswana Investigative services.`,
+		content: `Czech Republic has become a sought after destination for international students wishing to pursue their masters, bachelors or doctorate degrees.<br/><br/>
+		Victoria Visa Consultants has expert agents who are there to guide you in terms of student counseling, institute selection and other procedures so give us a visit and we will surely be able to assist you with your visa matters.<br/><br/>
+		Czech Republic is a fascinating and welcoming country. Czech Republic is a heaven for students welcoming around 35,000 internationals each year and offers quality education for free.`,
 	},
 	{
 		id: 8,
 		name: 'Estonia',
-		content: `Lesotho company registry documents- Registry extracts, annual returns certificate of incorporation.<br/><br/>
-		Lesotho Business information reports- company name & registration Number, legal status, Registered address, shareholdings & directorships.<br/><br/>
-		Lesotho Credit reports, Lesotho Due diligence services, Lesotho Litigation search/checks, Lesotho Property search/checks, Lesotho court records search, Lesotho Adverse media search, Lesotho compliance checks, Lesotho Directorships Checks/search, Lesotho Shareholdings Checks/search., Lesotho Business and market intelligence, Lesotho Risk intelligence data, Lesotho Third-party enhanced due diligence, Lesotho Investigative services.`,
+		content: `Estonia has become a sought after destination for international students wishing to pursue their masters, bachelors or doctorate degrees.<br/><br/>
+		Victoria Visa Consultants has expert agents who are there to guide you in terms of student counseling, institute selection and other procedures so give us a visit and we will surely be able to assist you with your visa matters.<br/><br/>
+		Estonian higher education is well respected around the world. The country is a participant in the Bologna process, which aims to standardize higher education across Europe, and its University diplomas are internationally accepted. Currently there are 15 public universities in Estonia, and 9 private. English is widely spoken, and most universities in Estonia offer a wide variety of english - taught programs.`,
 	},
 	{
 		id: 9,
 		name: 'Finland',
-		content: `Mozambique company registry documents- Registry extracts, annual returns certificate of incorporation.<br/><br/>
-		Mozambique Business information reports- company name & registration Number, legal status, Registered address, shareholdings & directorships.<br/><br/>
-		Mozambique Credit reports, Mozambique Due diligence services, Mozambique Litigation search/checks, Mozambique Property search/checks, Mozambique court records search, Mozambique Adverse media search, Mozambique compliance checks, Mozambique Directorships Checks/search, Mozambique Shareholdings Checks/search., Mozambique Business and market intelligence, Mozambique Risk intelligence data, Mozambique Third-party enhanced due diligence, Mozambique Investigative services.`,
+		content: `Estonia has become a sought after destination for international students wishing to pursue their masters, bachelors or doctorate degrees.<br/><br/>
+		Victoria Visa Consultants has expert agents who are there to guide you in terms of student counseling, institute selection and other procedures so give us a visit and we will surely be able to assist you with your visa matters.<br/><br/>
+		Finland is considered to have one of the best, if not the top, education systems in the world. One of the most unique and greatest things for European international students in Finland is that the education is completely free. Students are not required to pay tuition or fees and even their meals are free. Schools in Finland offer several different types of degree programs including engineering, business and medicine.`,
 	},
 	{
 		id: 10,
 		name: 'France',
-		content: `Namibia company registry documents- Registry extracts, annual returns certificate of incorporation.<br/><br/>
-		Namibia Business information reports- company name & registration Number, legal status, Registered address, shareholdings & directorships.<br/><br/>
-		Namibia Credit reports, Namibia Due diligence services, Namibia Litigation search/checks, Namibia Property search/checks, Namibia court records search, Namibia Adverse media search, Namibia compliance checks, Namibia Directorships Checks/search, Namibia Shareholdings Checks/search. Namibia Business and market intelligence, Namibia Risk intelligence data, Namibia Third-party enhanced due diligence, Namibia Investigative services.`,
+		content: `France has become a sought after destination for international students wishing to pursue their masters, bachelors or doctorate degrees.<br/><br/>
+		Victoria Visa Consultants has expert agents who are there to guide you in terms of student counseling, institute selection and other procedures so give us a visit and we will surely be able to assist you with your visa matters.<br/><br/>
+		The French higher education system is one of the best in the world. It is low tuition fees, studying in France is more economical for international students. French universities are near the top of renowned university ranking each year.`,
 	},
 	{
 		id: 11,
 		name: 'Germany',
-		content: `South Africa company registry documents- Registry extracts, annual returns certificate of incorporation.<br/><br/>
-		South Africa Business information reports- company name & registration Number, legal status, Registered address, shareholdings & directorships.<br/><br/>
-		South Africa Credit reports, Namibia Due diligence services, South Africa Litigation search/checks, South Africa Property search/checks, South Africa court records search, South Africa Adverse media search, South Africa compliance checks, South Africa Directorships Checks/search, South Africa Shareholdings Checks/search., South Africa Business and market intelligence, South Africa Risk intelligence data, South Africa Third-party enhanced due diligence, South Africa Investigative services.`,
+		content: `Germany has become a sought after destination for international students wishing to pursue their masters, bachelors or doctorate degrees.<br/><br/>
+		Victoria Visa Consultants has expert agents who are there to guide you in terms of student counseling, institute selection and other procedures so give us a visit and we will surely be able to assist you with your visa matters.<br/><br/>
+		Germany is one of the most popular destinations for international students. At German universities, you will enjoy quality education and numerous bachelor's and master's programs taught in english. Most Study programs are also free for all foreign students. `,
 	},
 	{
 		id: 12,
